@@ -3,6 +3,7 @@ package com.zerocarbon.plastic.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+    /*ApiResponse 반환 코드 정의*/
 @Getter
 @AllArgsConstructor
 public enum ResultCode {

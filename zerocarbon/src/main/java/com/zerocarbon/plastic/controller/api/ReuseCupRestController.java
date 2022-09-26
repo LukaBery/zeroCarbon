@@ -11,6 +11,7 @@ import com.zerocarbon.plastic.dto.ApiResponse;
 import com.zerocarbon.plastic.dto.ReuseCupDto;
 import com.zerocarbon.plastic.service.ReuseCupService;
 
+    /*재사용컵 컨트롤러*/
 @RestController
 @RequestMapping("/reuse")
 public class ReuseCupRestController {
@@ -18,6 +19,7 @@ public class ReuseCupRestController {
 	@Autowired
 	ReuseCupService reuseCupService;
 	
+	/* 재사용컵 정보 리스트 조회 */
 	@GetMapping("/getList")
 	public ApiResponse<List<ReuseCupDto>> getCupList(){
 		
